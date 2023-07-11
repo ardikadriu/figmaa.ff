@@ -106,7 +106,7 @@ body {
 }
 
 .follow:active {
-  opacity: 0;
+  opacity: 0.8;
 }
 
 .MESSAGE {
@@ -169,41 +169,8 @@ body {
   width: 375px;
   height: 73px;
   display: flex;
-}
-
-.home {
-  width: 40px;
-  height: 40px;
-  padding-left: 11px;
-  padding-top: 16px;
-  margin: 0;
-  padding-right: 41px;
-}
-
-.search-button {
-  width: 40px;
-  height: 40px;
-  padding-top: 11px;
-  margin: 0;
-}
-
-.Union {
-  margin: 0;
-  padding-top: 28px;
-}
-
-.upload {
-  padding-top: 9px;
-  padding-left: 46px;
-  padding-right: 31px;
-}
-
-.chat {
-  padding-top: 14px;
-}
-
-.prof {
-  padding: 14px 0 0 31px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .line {
@@ -215,4 +182,34 @@ body {
   margin-left: 120px;
   border-radius: 10px;
   margin-bottom: 5px;
+}
+
+.home {
+  padding: 0 0 0 14px;
+  width: 40px;
+  height: 40px;
+}
+
+.home:hover {
+  cursor: pointer;
+}
+
+.Union:hover {
+  cursor: pointer;
+}
+
+.upload:hover {
+  cursor: pointer;
+}
+
+.chat:hover {
+  cursor: pointer;
+}
+
+.prof {
+  padding: 0 11px 0 0;
+}
+
+.prof:hover {
+  cursor: pointer;
 }
